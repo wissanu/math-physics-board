@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: math-physics-board
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
